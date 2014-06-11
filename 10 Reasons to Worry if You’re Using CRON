@@ -1,0 +1,98 @@
+http://www.rocsoftware.com/pdf/10-Reasons-Whitepaper.pdf
+
+
+ROC SOFTWARE WHITEPAPER:
+10 Reasons to Worry if You’re Using CRON
+TABLE OF CONTENTS
+Introduction 3
+What happens when a job fails? 3
+How do you easily control all systems, across all platforms? 4
+How do you effectively manage remote systems? 4
+How do you handle existing business processes? 4
+How do you handle complex calendars required by your business? 5
+What do you do if you need to reuse tasks, schedules or calendars? 5
+How do you handle real-time updates of tasks and schedules? 5
+How do you handle wait conditions? 6
+How do you test wait conditions to make sure they’re configured correctly? 6
+How do you handle security for different users or groups of users? 6
+Conclusion 6
+About ROC Maestro for Open Systems 7
+About ROC Software 8
+10 REASONS YOU SHOULD WORRY IF YOU’RE USING CRON
+Introduction
+If you’re using CRON, you know that CRON behaves like a reliable employee, doing precisely what it’s told when it’s told to do it. Unfortunately, CRON is not the most versatile or communicative employee. If something unexpected happens with a job that CRON has scheduled, CRON says little and does nothing to solve the problem. Unless a member of your IT staff vigilantly watches over CRON to catch anything that goes wrong – a job may fail and no one may notice at all.
+For small standalone tasks, an unreported problem might not be a problem – it can be fixed once the problem is discovered. On the other hand, if a task contributes to a larger business process, a small failure can leave customers unsatisfied, employees unproductive and business unfinished – with the issue landing at the feet of IT. As more and more systems and applications contribute to an organization’s critical processes, the importance of the interplay and the successful completion of all of the tasks rises dramatically.
+The challenge becomes managing the various tasks across diverse operating systems and applications. A fairly common answer is to cobble together scripts, CRON, and the simple schedules produced within applications into an unofficial, largely manual workload management system. With a high ratio of Systems Administrators to scripts, tasks, and systems – not to mention the existence of good documentation that maps all scripts to the business processes they support, the CRON/script management approach may work for some organizations – for a while. However, when your IT staff is in short supply, when a key person leaves, or when something goes terribly wrong with a system at the worst possible time, it rapidly becomes clear that managing CRON and all of those scripts is a bit like herding cats.
+CRON is undoubtedly a useful free tool that has saved administrators time, but when an organization chooses to use CRON instead of a proven job scheduling solution such as ROC Maestro for Open Systems, it gives up many tangible benefits – and a significant amount of money in the long run. The purpose of this whitepaper is to explore the advantages lost by relying upon CRON and to discuss the real benefits gained by using ROC Maestro for Open Systems.
+This whitepaper presents ten considerations when weighing the risks of using CRON versus a complete scheduling solution such as ROC Maestro for Open Systems:
+1) What happens when a job fails?
+With CRON, systems administrators can schedule the date and time that a job runs – but there’s no way to know if a job ran successfully. One of the most important benefits of
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -3-
+using best of breed job scheduling software, such as ROC Maestro for Open Systems, is the ability to know and respond immediately when a job fails. With CRON, unless operators monitor their systems around the clock, a failed job is easily missed.
+Not only does ROC Maestro for Open Systems monitor the status of jobs, the system automatically notifies IT staff members via email or pager should a job fail. ROC Maestro for Open Systems also speeds response to failed jobs with automatic recovery jobs and by allowing operators to “assist” jobs and restart them with just a few clicks of the mouse. This enables systems administrators to take immediate action – preventing downtime and improving service levels.
+2) How do you easily control all systems, across all platforms?
+The ROC Maestro for Open Systems Graphical User Interface (GUI) provides a central point of control for all of the systems within the scheduling environment. The GUI looks the same on UNIX, Linux, and Windows – reducing training time – and may be installed on any number of systems without additional licensing cost. With the GUI, ROC Maestro administrators save the time of logging onto system after system to check the status of schedules and can monitor events across systems and across different platforms from a central console.
+Additionally, the ROC Maestro for Open Systems GUI allows users who may not be skilled in system administration to monitor tasks and respond appropriately without bogging them down in details. The monitoring window provides a clear view of the scheduling environment without having to jump from system to system to determine status. Using CRON means spending more time monitoring job status and editing jobs for even the most experienced administrator.
+3) How do you effectively manage remote systems?
+The ROC Maestro for Open Systems GUI is lightweight and fully functional over a VPN – and even over a dialup connection. ROC Maestro for Open Systems users can respond immediately to scheduling events from any PC on an organization’s network or when dialing in from home – which translates to better response time and better visibility for remote administration than when using CRON.
+4) With CRON’s limitations, how do you handle existing business processes?
+One reason for the importance of flexibility in a job scheduler is to make sure that it is capable of handling existing business processes rather than forcing business processes to accommodate a scheduler’s limitations.
+Using ROC Maestro for Open Systems, administrators can design dependencies to match their complex business needs. ROC Maestro for Open Systems dependencies are flexible and powerful enough to control any business process – across UNIX, Linux, and Windows
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -4-
+systems and across applications. Sequencing, or specifying the order for tasks to execute, requires just dragging and dropping tasks into the appropriate order. Making one task wait for two others to complete or making several tasks wait for one to complete is a simple matter of cutting and pasting. ROC Maestro for Open Systems visually presents these task dependencies in a manner that is easy to understand, monitor, and modify.
+ROC Maestro makes it simple to design complex dependencies that would be extremely difficult using CRON and scripts. Dependencies that would be difficult to write using scripts – such as checking to see whether a file exists, a resource is available, or a schedule on another system completed – are simple to create and easy to manage with ROC Maestro for Open Systems.
+5) How do you handle complex calendars required by your business?
+ROC Maestro for Open Systems includes thirty-seven pre-configured calendars that satisfy the more common recurring events. For example, a task can be configured to run every Monday, the first Friday of the month, or on weekends only. These calendars can be customized to fit virtually any business calendar.
+Reusable datelists allow the addition of dates to or the exclusion of dates from any calendar – adding an additional level of control. It is fairly common, for instance, to define a list of holidays and then to exclude those days within a calendar so that a schedule does not run on those holidays. Try running a CRON job on the last Friday of every month, except on holidays, and the value of ROC Maestro’s simplicity will become clear.
+ROC Maestro for Open Systems allows users to easily design their scheduling calendars. Once they are in place, they can be reused within any task effortlessly. The calendars can also be updated without having to change every task that uses them.
+6) What do you do if you need to reuse tasks, schedules or calendars?
+Since many tasks are slight variations on others, ROC Maestro for Open Systems makes it easy for users to copy and reuse schedules and tasks, including their advanced features such as wait conditions and recovery options. Reusing a task requires nothing more than a couple of mouse clicks, and reusing a calendar is as easy as selecting it from a drop list. Administrators save time by quickly reusing schedules and tasks on one system, or on any number of systems that require similar schedules.
+7) How do you handle real-time updates of tasks and schedules?
+With ROC Maestro for Open Systems, once a task or schedule has been updated, the changes take place immediately in the scheduling database. Administrators can respond to an “assist” or “error” status quickly. Best of all, the changes can take effect instantly - jobs can be manually submitted to run immediately without changing the time they are normally scheduled to run.
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -5-
+8) How do you handle wait conditions?
+Wait conditions check to see that a file is present or that some other condition is satisfied before a schedule begins or continues. With ROC Maestro for Open Systems, administrators can automate complex business processes using simple syntax – and unlike CRON, these wait conditions are easy to manage, update, and track. For instance, a task can be required to wait until some data is moved from another system, or a task can wait until another schedule completes. Wait conditions can also be set to “time out” after a specified period of time.
+9) How do you test wait conditions to make sure they are configured correctly?
+In ROC Maestro for Open Systems, preview conditions test a wait condition or a precondition for syntax to make sure the tasks that have been referenced actually exist. They provide an extremely quick and easy way to test wait conditions before they go into production – preventing errors and saving system administrators time.
+10) How do you handle security for different users or groups of users?
+ROC Maestro for Open Systems adds an additional level of security above and beyond the operating system’s users and groups. Roles determine which users can view tasks, launch tasks, kill tasks, assist tasks, and change tasks. By defining different roles, administrators can control the level of scheduling capability for each user. Some users may only have the ability to view tasks, others may have the ability to view and assist tasks, and an experienced administrator may be allowed to kill or modify tasks.
+Roles prevent human errors by separating the responsibilities of front office and back office users. Administrators can also easily add and change capabilities for a user or a group of users as business needs dictate.
+Conclusion
+The root purpose of all of the features built into ROC Maestro for Open Systems is lowering operational cost, particularly when compared to using native scheduling such as CRON. When compared to CRON, ROC Maestro for Open Systems lowers the burden on IT staff, reduces downtime, and automates operations more effectively.
+One administrator can manage more systems and applications with ROC Maestro than would be possible with CRON. IT staff can focus on strategic projects rather than day-to-day operations. Reduced downtime prevents lost productivity and minimizes the costs of unexpected application fixes and after-hours system emergencies.
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -6-
+When an organization begins feeling the pain of managing tasks using native scheduling such as CRON or managing complex tasks that cross applications and platforms such as UNIX, Linux, and Windows, it is time to seriously consider deploying workload scheduling software. ROC Maestro for Open Systems provides the advanced scheduling features that allow an organization to automate virtually any business process, without sacrificing ease of use.
+About ROC Maestro for Open Systems
+ROC Maestro for Open Systems, a key component of the ROC Enterprise Suite™, provides a very easy method for scheduling and managing workloads, processes, dependencies and events across complex, heterogeneous IT environments. For environments that involve UNIX®, Linux®, Windows® or legacy platforms such as HP e3000, ROC Maestro for Open Systems dramatically simplifies administration while expanding your operational reach – especially in times of change or migration.
+With ROC Maestro for Open Systems, resource constraints are not an issue. The lightweight, small footprint means you don’t need a separate server or large external database to run ROC Maestro for Open Systems. What’s more, the system’s sophisticated GUI makes it all so easy to use. You’ll protect your existing IT investments, ensure greater enterprise stability and save valuable administrative time and resources.
+Power, visibility and centralized control
+The ability to automate and monitor processes based on reusable calendars, events, cross-platform dependencies and reporting is so easy with ROC Maestro for Open Systems. It’s all about getting the centralized control and visibility you need without constantly dealing with the subtle differences between platforms and applications.
+ROC Maestro for Open Systems consolidates scheduling across UNIX, Windows and Linux systems within a very powerful, yet simple interface. This enables IT to easily track and manage schedules, tasks, job status and job history while speeding resolution of problems with flexible error detection and recovery. IT personnel can easily track their schedules of jobs and tasks with ROC Maestro for Open Systems. Job status can be immediately recognized by the display color, while quick views reveal jobs that are inactive, active, running, held, or require assistance. Remote administration, comprehensive logging and reporting, secure designation of users and groups further enhance the administrator’s level of control. It’s all built-in to lighten the load on IT, improve response times and increase service levels.
+A UNIX or Linux system serves as the scheduling master. The master can be administered by using its native GUI, logging into it remotely, or by installing the GUI of ROC Maestro for Open Systems that allows administration from a Windows PC.
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -7-
+Move beyond the limitations of built-in schedulers
+As we’ve explored in this whitepaper, built-in schedulers provided within operating systems, databases or applications do not offer the centralized control and flexibility required to efficiently manage even the small enterprise. For example, it’s expensive to maintain CRON on each and every server. It’s a drain for IT to log into machine after machine, sifting through log files and scripts to track tasks that have no centralized scheduling, states or result information.
+With limited security, no dependencies, prerequisites, auditing or reporting – built-in schedulers simply do not pass the cost vs. benefit analysis. Should you need to integrate processes and monitor and react to events in real time? Built-in schedulers simply do not provide the power you need.
+The safe choice when moving to open systems
+If you’re moving to open systems, ROC Maestro for Open Systems enables a smooth transition during this critical time. For those experienced with Maestro for MPE, ROC Maestro for Open Systems uses the same key ideas, concepts and flexible, reusable calendars that you’re familiar with. This makes your migration straightforward and lowers your training and transition cost. What’s more, should you need assistance, ROC Software is there with award-winning support and migration expertise as you make the important move to new technology platforms.
+About ROC Software
+Headquartered in Austin, Texas, ROC Software develops easy to use systems management solutions for UNIX, Linux, Windows, and the HP e3000. ROC’s decades of cross-platform experience ensures that its solutions exceed customer requirements for reliability. Over 4,000 customers in North America and Europe depend upon ROC Software for innovative enterprise solutions, quality, responsiveness and award-winning support.
+For more information, contact ROC Software at 512-336-4200 or visit us online at www.rocsoftware.com.
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -8-
+9050 N. Capital of Texas Hwy.
+Suite 300
+Austin, Texas 78759
+Phone 512-336-4200
+Fax 512-336-4290
+www.rocsoftware.com
+© 2004 ROC Software, Inc. and ROC Maestro for Open Systems are trademarks of ROC Software. All other brand or product names are trademarks or registered trademarks of their respective holders.
+All features and specifications are subject to change without notice. No portion of this document may be copied without expressed written permission of ROC Software.
+All rights reserved.
+ROC Software Whitepaper: July, 2004
+10 Reasons to Worry if You’re Using CRON -9-
